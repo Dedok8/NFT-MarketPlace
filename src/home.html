@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"HomePage"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<div class="hero__text">
+							<h4 class="hero__label">NFT Marketplace</h4>
+							<h1 class="hero__title ">Collect rare digital artworks</h1>
+						</div>
+						<div class="hero__info">
+							<button type="button" class="hero__btn btn btn--color">
+								Explore
+							</button>
+							<div class="hero__users users">
+								<img class="users__item item item--one" src="@img/hero/creators/creators_one.jpg" alt="#">
+								<img class="users__item item item--two" src="@img/hero/creators/creators_two.jpg" alt="#">
+								<img class="users__item item item--three" src="@img/hero/creators/creators_three.jpg" alt="#">
+								<div class="users__body">
+									<div class="users__body-svg">
+										<svg width="146" height="120" viewBox="0 0 146 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M119.666 91.4231C120.698 72.7247 116.768 53.9604 102.376 40.0651C89.3859 27.5232 71.762 25.1598 63.3776 43.659C59.4085 52.4161 60.8412 65.2718 69.7115 70.8409C79.5937 77.0454 87.3225 67.489 87 60.0001C86.2469 42.5089 56.6781 44.2537 36.5 43.6591C12.6044 42.9549 0.852925 21.6981 0.999961 21.629"
+												stroke="white" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<path
+												d="M136.351 77.7484C134.253 78.3209 132.627 79.6526 130.933 80.9028C125.372 85.0075 120.748 91.1069 119.633 97.8445C118.38 90.5721 114.171 81.5519 106.601 78.7138"
+												stroke="white" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="hero__people people">
+								<div class="peaple__item">
+									<h5 data-watch-once data-watch class="people__number">
+										<span data-digits-counter data-digits-counter-speed="1500">50</span>k
+									</h5>
+									<h6 class="people__label">Artwork</h6>
+								</div>
+								<div class="peaple__item">
+									<h5 data-watch-once data-watch class="people__number">
+										<span data-digits-counter data-digits-counter-speed="1500">35</span>k
+									</h5>
+									<h6 class="people__label">Auction</h6>
+								</div>
+								<div class="peaple__item">
+									<h5 data-watch-once data-watch class="people__number">
+										<span data-digits-counter data-digits-counter-speed="1500">23</span>k+
+									</h5>
+									<h6 class="people__label">Artist</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero__image-block image">
+						<div data-da=".hero__text, 768" class="image__box">
+							<img class="ibg" src="@img/hero/hero_img/hero_img.jpg" alt="hero img">
+						</div>
+						<button type="button" class="image__btn">
+							<svg class="circle" viewBox="0 0 100 100">
+								<path id="circle" d="M 0,50 a 50,50 0 1,1 0,1 z"></path>
+								<text>
+									<textPath xlink:href="#circle">
+										NFT Lorem, ipsum D
+									</textPath>
+								</text>
+							</svg>
+							<span class="_icon-carbon_play-filled-alt"></span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__popular popular">
+				<div class="popular__container">
+					<!-- Оболонка слайдера -->
+					<div class="popular__slider swiper__popular">
+						<!-- Частина слайдера, що рухається -->
+						<div class="popular__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/game.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Games
+									</h4>
+								</div>
+							</a>
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/sports.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Sports
+									</h4>
+								</div>
+							</a>
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/metaverse.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Metaverse
+									</h4>
+								</div>
+							</a>
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/art.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Art
+									</h4>
+								</div>
+							</a>
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/music.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Music
+									</h4>
+								</div>
+							</a>
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/metaverse.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Metaverse
+									</h4>
+								</div>
+							</a>
+							<a href="#" class="popular__slide swiper-slide">
+								<div class="popular__slide-block">
+									<img class="popular__slide-block-img ibg" src="@img/popular/slider/images/photography.jpg" alt="#">
+								</div>
+								<div class="popular__slide-block-text">
+									<h4 class="popular__slide-block-title">
+										Photography
+									</h4>
+								</div>
+							</a>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="swiper-pagination"></div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button>
+						<!-- Якщо потрібен скролбар -->
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+				</div>
+			</section>
+			<section class="page__top top">
+				<div class="top__container">
+					<div data-tabs class="top__block block">
+						<div class="block__top">
+							<h2 class="block__main-title title title--main">top collections</h2>
+							<nav data-tabs-titles class="block__navigation">
+								<button type="button" class="block__title _tab-active">7 Days</button>
+								<button type="button" class="block__title">30 Days</button>
+							</nav>
+						</div>
+						<div data-tabs-body class="block__content">
+							<div class="block__body">
+								<div data-showmore="items" class="block">
+									<ul data-showmore-content="4" class="block__content">
+										<!-- 1 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/etherpilots.jpg" alt="Etherpilots">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Etherpilots</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/mineblowings.jpg" alt="Mineblowings">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Mineblowings</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 2 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/super_worlds.jpg" alt="Super Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Super Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/kive_core.jpg" alt="Kive Core">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Kive Core</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_flow.jpg" alt="NFT Flow">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Flow</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 3 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/bidether.jpg" alt="Bidether">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Bidether</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/varipack.jpg" alt="Varipack">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Varipack</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nether.jpg" alt="Nether">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Nether</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 4 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/moonther.jpg" alt="Moonther">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Moonther</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/proof _corn.jpg" alt="Proof Corn">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Proof Corn</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/parallel.jpg" alt="Parallel">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Parallel</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 5 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 6 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+									<button hidden data-showmore-button type="button" class="block__more">
+										<span>See All Collection</span>
+										<span>Hidden Collection</span>
+									</button>
+								</div>
+							</div>
+							<div class="block__body">
+								<div data-showmore="items" class="block">
+									<ul data-showmore-content="2" class="block__content">
+										<!-- 1 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/etherpilots.jpg" alt="Etherpilots">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Etherpilots</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/mineblowings.jpg" alt="Mineblowings">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Mineblowings</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 2 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/super_worlds.jpg" alt="Super Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Super Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/kive_core.jpg" alt="Kive Core">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Kive Core</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_flow.jpg" alt="NFT Flow">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Flow</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 3 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/bidether.jpg" alt="Bidether">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Bidether</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/varipack.jpg" alt="Varipack">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Varipack</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nether.jpg" alt="Nether">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Nether</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 4 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/moonther.jpg" alt="Moonther">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Moonther</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/proof _corn.jpg" alt="Proof Corn">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Proof Corn</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/parallel.jpg" alt="Parallel">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">Parallel</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<!-- 5 ряд -->
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="top__list-item">
+											<a href="#" class="top__list-item-link item">
+												<div class="item__block-image">
+													<img class="item__img" src="@img/top/peaple/nft_worlds.jpg" alt="NFT Worlds">
+													<span class="item__number">1</span>
+												</div>
+												<div class="item__block-info">
+													<div class="item__block-box">
+														<h4 class="item__title">NFT Worlds</h4>
+														<h6 class="item__label">Floor: 0.80ETH</h6>
+													</div>
+													<div class="item__block-price">
+														<div class="item__coin">5.8k ETH </div>
+														<div class="item__dollars">$8.4M</div>
+														<div class="item__percent">+294.7%</div>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+									<button hidden data-showmore-button type="button" class="block__more">
+										<span>See All Collection</span>
+										<span>Hidden Collection</span>
+									</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__tranding tranding">
+				<div class="tranding__container">
+					<h2 class="tranding__main-title title title--main">Tranding nfts</h2>
+					<!-- Оболонка слайдера -->
+					<div class="tranding__slider swiper__tranding">
+						<!-- Частина слайдера, що рухається -->
+						<div class="tranding__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<a href="#" class="tranding__slide swiper-slide">
+								<div class="tranding__block-image">
+									<img class="tranding__block-img" src="@img/tranding/slider/image/images_1.jpg" alt="#">
+								</div>
+								<div class="tranding__blocks">
+									<div class="tranding__block-info">
+										<h4 class="tranding__title">Rare Crypto</h4>
+										<h6 class="tranding__hex">#QA5200 The Kive</h6>
+									</div>
+									<div class="tranding__block-main">
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Price</h5>
+											<h6 class="tranding__block-item-currency">0.03 ETH</h6>
+										</div>
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Highest Bid</h5>
+											<h6 class="tranding__block-item-currency">0.07 ETH</h6>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="tranding__slide swiper-slide">
+								<div class="tranding__block-image">
+									<img class="tranding__block-img" src="@img/tranding/slider/image/images_2.jpg" alt="#">
+								</div>
+								<div class="tranding__blocks">
+									<div class="tranding__block-info">
+										<h4 class="tranding__title">Rare Crypto</h4>
+										<h6 class="tranding__hex">#QA5200 The Kive</h6>
+									</div>
+									<div class="tranding__block-main">
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Price</h5>
+											<h6 class="tranding__block-item-currency">0.03 ETH</h6>
+										</div>
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Highest Bid</h5>
+											<h6 class="tranding__block-item-currency">0.07 ETH</h6>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="tranding__slide swiper-slide">
+								<div class="tranding__block-image">
+									<img class="tranding__block-img" src="@img/tranding/slider/image/images_3.jpg" alt="#">
+								</div>
+								<div class="tranding__blocks">
+									<div class="tranding__block-info">
+										<h4 class="tranding__title">Rare Crypto</h4>
+										<h6 class="tranding__hex">#QA5200 The Kive</h6>
+									</div>
+									<div class="tranding__block-main">
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Price</h5>
+											<h6 class="tranding__block-item-currency">0.03 ETH</h6>
+										</div>
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Highest Bid</h5>
+											<h6 class="tranding__block-item-currency">0.07 ETH</h6>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="tranding__slide swiper-slide">
+								<div class="tranding__block-image">
+									<img class="tranding__block-img" src="@img/tranding/slider/image/images_4.jpg" alt="#">
+								</div>
+								<div class="tranding__blocks">
+									<div class="tranding__block-info">
+										<h4 class="tranding__title">Rare Crypto</h4>
+										<h6 class="tranding__hex">#QA5200 The Kive</h6>
+									</div>
+									<div class="tranding__block-main">
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Price</h5>
+											<h6 class="tranding__block-item-currency">0.03 ETH</h6>
+										</div>
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Highest Bid</h5>
+											<h6 class="tranding__block-item-currency">0.07 ETH</h6>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="tranding__slide swiper-slide">
+								<div class="tranding__block-image">
+									<img class="tranding__block-img"
+										src="@img/1618631245_10-phonoteka_org-p-povtoryayushchiesya-kartinki-dlya-fona-15.webp" alt="#">
+								</div>
+								<div class="tranding__blocks">
+									<div class="tranding__block-info">
+										<h4 class="tranding__title">Rare Crypto</h4>
+										<h6 class="tranding__hex">#QA5200 The Kive</h6>
+									</div>
+									<div class="tranding__block-main">
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Price</h5>
+											<h6 class="tranding__block-item-currency">0.03 ETH</h6>
+										</div>
+										<div class="tranding__block-item">
+											<h5 class="tranding__block-item-label">Highest Bid</h5>
+											<h6 class="tranding__block-item-currency">0.07 ETH</h6>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="swiper-pagination"></div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button>
+						<!-- Якщо потрібен скролбар -->
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+				</div>
+			</section>
+			<!-- <section class="page__insights insights">
+				<div class="insights__container">
+					<h2 class="insights__main-title">Insights</h2>
+					<ul class="insights__list">
+						<li class="insights__block block-box box">
+							<div class="box__image">
+								<img class="ibg" src="@img/Insights/image/image_one.jpg" alt="#">
+							</div>
+							<div class="box__info info">
+								<h5 class="info__category">TECHNOLOGY</h5>
+								<h5 class="info__date">John Doe • 19 Jan 2022</h5>
+							</div>
+							<h3 class="box__title">Gesture for the people and the culture</h3>
+							<div class="box__block-link">
+								<a class="box__link _icon-bi_arrow-up-right" href="#">More</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section> -->
+			<section class="page__download download">
+				<div class="download__container">
+					<h2 class="download__main-title title title--main">Download Qeeb app to track your NFT portfolio and discover
+						more</h2>
+					<ul class="download__list">
+						<li class="download__item"><a href="#" class="download__item-link _icon-apple">App Store</a></li>
+						<li class="download__item"><a href="#" class="download__item-link _icon-android">Google Play</a></li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

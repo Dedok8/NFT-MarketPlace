@@ -1,0 +1,278 @@
+//====================================================================================================
+.footer {
+  background: $bgBlack2;
+  @include adaptiveValue("padding-top",48 ,40 );
+  @include adaptiveValue("padding-bottom",48 ,40 );
+  // .footer__container
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: toRem(20);
+    @media (min-width:$mobile){
+       padding-right: toRem(50); 
+    }
+    
+  }
+  // .footer__main
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: toRem(35);
+    @media (max-width:$mobile){
+       justify-content: center; 
+       flex-direction: column-reverse;
+    }
+  }
+  // .footer__logo
+  &__logo {
+    flex-basis: toRem(150);
+    @media (max-width:$mobile){
+       display: none; 
+    }
+  }
+  // .footer__block
+  &__block {
+    display: flex;
+    justify-content: center;
+    gap: toRem(40);
+    flex: 1 0 auto;
+    @media (max-width:$mobile){
+       display: none; 
+    }
+  }
+  // .footer__mobile
+  &__mobile {
+    display: none;
+    @media (max-width:$mobile){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: toRem(40);
+    }
+  }
+  // .footer__form
+  &__form {
+    @include adaptiveValue("padding-top",80 ,40 );
+    @include adaptiveValue("padding-bottom",80 ,40 );
+    @include adaptiveValue("padding-left",48 ,28 );
+    @include adaptiveValue("padding-right",48 ,28 );
+    color: $bgBlack;
+    background: $textGreen;
+    border-radius: toRem(30);
+    flex:0 1 toRem(500);
+    display: grid;
+    position: relative;
+    @media (max-width:toEm(1100)){
+        flex-basis: 100%;
+    }
+  }
+  // .footer__down
+  &__down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: toRem(24);
+    padding-top: toRem(6);
+    padding-bottom: toRem(6);
+    @media (max-width:$mobile){
+       display: none; 
+    }
+  }
+}
+.block {
+  
+  // .block__list
+  &__list {
+  }
+  // .block__list-title
+  &__list-title {
+    font-size: toRem(18);
+    font-weight: 400;
+    line-height: toRem(18);
+    margin-bottom: toRem(16);
+    font-family: $additionalFonts;
+  }
+  // .block__list-item
+  &__list-item {
+  }
+  // .block__list-item-link
+  &__list-item-link {
+    font-size: toRem(16);
+    font-weight: 400;
+    line-height: toRem(30);
+    position: relative;
+		transition: all .4s;
+		@media (any-hover: hover){
+			&:hover{
+				color: $textGreen;
+			}
+		}
+		@media (any-hover: hover){
+			&:hover::before{
+				transform: scaleX(1);
+				transition: transform .4s;
+			}
+		}
+		&::before{
+			content: "";
+			width: 100%;
+			height: toRem(2);
+			background-color: $textGreen;
+			position: absolute;
+			left: 0;
+			bottom: toRem(-5);
+			transform: scaleX(0);
+			transition: transform .4s;
+		}
+  }
+}
+.mobile {
+  // .mobile__list
+  &__list {
+  }
+  // .mobile__title
+  &__title {
+    font-size: toRem(18);
+    font-weight: 600;
+    line-height: toRem(18);
+    letter-spacing: toRem(0);
+    margin-bottom: toRem(16);
+  }
+  // .mobile__list-item
+  &__list-item {
+    font-size: toRem(16);
+    font-weight: 400;
+    line-height: toRem(16);
+    letter-spacing: toRem(0);
+      &--margin{
+        &:not(:last-child){
+          margin-bottom: toRem(32);
+        }
+      }
+  }
+  &__list-item-link{
+    position: relative;
+    @media (any-hover: hover){
+			&:hover{
+				color: $textGreen;
+			}
+		}
+		@media (any-hover: hover){
+			&:hover::before{
+				transform: scaleX(1);
+				transition: transform .4s;
+			}
+		}
+		&::before{
+			content: "";
+			width: 100%;
+			height: toRem(2);
+			background-color: $textGreen;
+			position: absolute;
+			left: 0;
+			bottom: toRem(-5);
+			transform: scaleX(0);
+			transition: transform .4s;
+		}
+  }
+  // .mobile__list-icon
+  &__list-icon {
+    display: flex;
+    gap: toRem(26);
+  }
+}
+.icon-list {
+  // .icon-list__item
+  &__item {
+  }
+  // .icon-list__item-link
+  &__item-link {
+    transition: color .3s;
+    @media (any-hover: hover){
+      &:hover{
+        color: $textGreen;
+      }
+    }
+  }
+}
+.form {
+  &__title{
+    @include adaptiveValue("font-size",24 ,20 );
+    font-weight: 400;
+    line-height: toRem(29);
+    letter-spacing: 4%;
+    font-family: $additionalFonts;
+    margin-bottom: toRem(16);
+  }
+  &__nav{
+    display: flex;
+  }
+  &__line{
+    &::after{
+      content:'';
+      width: 100%;
+      height: toRem(1);
+      background: #3FC9B0;
+    }
+  }
+  &__absolute-img{
+    position: absolute;
+    bottom: toRem(-25);
+    right: toRem(-25);
+    @media (max-width:$mobile){
+       display: none; 
+    }
+  }
+}
+.input {
+}
+.button {
+  &::before{
+    content:url("../img/footer/send.svg");
+    
+  }
+}
+.down {
+  // .down__rights
+  &__rights {
+  }
+  // .down__privacy
+  &__privacy {
+  }
+  // .down__list
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: toRem(24);
+  }
+  // .down__list-item
+  &__list-item {
+  }
+  // .down__list-item-link
+  &__list-item-link {
+    font-size: toRem(25);
+    transition: color .3s;
+    @media (any-hover: hover){
+      &:hover{
+        color: $textGreen;
+      }
+    }
+  }
+}
+._icon-twitter {
+}
+._icon-facebook {
+}
+._icon-instagram {
+}
+._icon-in {
+}
+._icon-tiktok {
+}
+._icon-youtube {
+}
+
+
+//====================================================================================================
